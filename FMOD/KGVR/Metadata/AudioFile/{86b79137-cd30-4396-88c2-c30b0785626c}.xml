@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{86b79137-cd30-4396-88c2-c30b0785626c}">
+		<property name="assetPath">
+			<value>Gun/Fire/EnemyGunShot.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.90147916666666672</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{9259bd29-f532-45b1-a2ed-ec4e21e08ac9}</destination>
+		</relationship>
+	</object>
+</objects>
