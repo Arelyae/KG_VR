@@ -6,10 +6,10 @@ public class S_Gun : MonoBehaviour
     [SerializeField] private Transform firePoint;
     [SerializeField] private GameObject bulletPrefab;
 
-    private GameObject lastFiredBullet;
-
     public void LaunchBullet()
     {
-        lastFiredBullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+        GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+
+        bullet.GetComponent<S_Bullet>().Initialized("Player");
     }
 }
