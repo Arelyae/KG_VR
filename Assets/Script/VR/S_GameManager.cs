@@ -6,8 +6,6 @@ public class S_GameManager : MonoBehaviour
     //[Header("Settings")]
 
     [Header("References")]
-    [SerializeField] private GameObject gun;
-    [SerializeField] private Transform spawnPointGun;
     [SerializeField] private Transform spawnPointEnemy;
     [SerializeField] private List<GameObject> listEnemy;
 
@@ -42,8 +40,6 @@ public class S_GameManager : MonoBehaviour
     private void StartGame()
     {
         rseOnDisplayUI.Call(true);
-
-        Instantiate(gun, spawnPointGun.position, spawnPointGun.rotation);
 
         if (currentEnemy != null) Destroy(currentEnemy);
 

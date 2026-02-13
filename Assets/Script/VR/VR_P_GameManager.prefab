@@ -30,7 +30,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 4231048471498521294}
   - {fileID: 4126842546477332605}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -46,8 +45,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7c30837752eb6c46b8d657da7ae6a50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gun: {fileID: 814692267203493421, guid: 6346f6f7ea0ede6478ee06bbadee7444, type: 3}
-  spawnPointGun: {fileID: 4231048471498521294}
   spawnPointEnemy: {fileID: 4126842546477332605}
   listEnemy:
   - {fileID: 5608704443220606949, guid: 3b5873b4baeab6f45bd94cf4c5f10004, type: 3}
@@ -58,37 +55,6 @@ MonoBehaviour:
   rseOnNextFight: {fileID: 11400000, guid: 8a9f7d152a554dc49a7113befb89c2d3, type: 2}
   rseOnReset: {fileID: 11400000, guid: aaad844a6df1a3c46b399c303fbaa5be, type: 2}
   rseOnDisplayUI: {fileID: 11400000, guid: c88ac2ba6c815ea4284f1bfca433ec04, type: 2}
---- !u!1 &6081284223025340981
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4231048471498521294}
-  m_Layer: 0
-  m_Name: SpawnGun
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4231048471498521294
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6081284223025340981}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -26.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2102500008645300581}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7686414800061407991
 GameObject:
   m_ObjectHideFlags: 0
