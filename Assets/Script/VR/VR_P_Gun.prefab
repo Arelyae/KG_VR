@@ -14,11 +14,11 @@ GameObject:
   - component: {fileID: 7236151911005583596}
   m_Layer: 0
   m_Name: VR_P_Gun
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1189054286920382357
 Transform:
   m_ObjectHideFlags: 0

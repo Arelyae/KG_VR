@@ -5,8 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class S_UI : MonoBehaviour
 {
-    //[Header("Settings")]
-
     [Header("References")]
     [SerializeField] private GameObject windowLeft;
     [SerializeField] private GameObject windowRight;
@@ -17,11 +15,8 @@ public class S_UI : MonoBehaviour
     [SerializeField] private TextMeshProUGUI textDrawSpeedAverage;
     [SerializeField] private TextMeshProUGUI textReflexAverage;
 
-    [Header("Input")]
+    [Header("Inputs")]
     [SerializeField] private RSE_OnDisplayUI rseOnDisplayUI;
-
-    //[Header("Output")]
-
 
     private bool isLoading = false;
 

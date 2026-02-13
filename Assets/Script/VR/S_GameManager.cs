@@ -3,20 +3,19 @@ using UnityEngine;
 
 public class S_GameManager : MonoBehaviour
 {
-    //[Header("Settings")]
-
     [Header("References")]
     [SerializeField] private Transform spawnPointEnemy;
     [SerializeField] private List<GameObject> listEnemy;
 
-    [Header("Input")]
+    [Header("Inputs")]
     [SerializeField] private RSE_OnStartGame rseOnStartGame;
     [SerializeField] private RSE_OnRestartFight rseOnRestartFight;
     [SerializeField] private RSE_OnNextFight rseOnNextFight;
     [SerializeField] private RSE_OnReset rseOnReset;
 
-    [Header("Output")]
+    [Header("Outputs")]
     [SerializeField] private RSE_OnDisplayUI rseOnDisplayUI;
+    [SerializeField] private RSE_OnDisplayGun rseOnDisplayGun;
 
     private GameObject currentEnemy = null;
     private int currentIndex = 0;
@@ -40,6 +39,7 @@ public class S_GameManager : MonoBehaviour
     private void StartGame()
     {
         rseOnDisplayUI.Call(true);
+        rseOnDisplayGun.Call(true);
 
         if (currentEnemy != null) Destroy(currentEnemy);
 

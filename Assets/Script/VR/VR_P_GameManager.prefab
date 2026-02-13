@@ -55,6 +55,7 @@ MonoBehaviour:
   rseOnNextFight: {fileID: 11400000, guid: 8a9f7d152a554dc49a7113befb89c2d3, type: 2}
   rseOnReset: {fileID: 11400000, guid: aaad844a6df1a3c46b399c303fbaa5be, type: 2}
   rseOnDisplayUI: {fileID: 11400000, guid: c88ac2ba6c815ea4284f1bfca433ec04, type: 2}
+  rseOnDisplayGun: {fileID: 11400000, guid: 7f60383a625a4b146a62599391a5e3f7, type: 2}
 --- !u!1 &7686414800061407991
 GameObject:
   m_ObjectHideFlags: 0
