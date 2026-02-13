@@ -57,9 +57,10 @@ public class S_GameManager : MonoBehaviour
 
     private void NextFight()
     {
-        if (currentEnemy != null) Destroy(currentEnemy);
+        if (currentIndex < listEnemy.Count - 1) currentIndex++;
+        else return;
 
-        currentIndex = (currentIndex + 1) % listEnemy.Count;
+        if (currentEnemy != null) Destroy(currentEnemy);
 
         currentEnemy = Instantiate(listEnemy[currentIndex], spawnPointEnemy.position, spawnPointEnemy.rotation);
     }
